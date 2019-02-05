@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
+import {Grid} from 'semantic-ui-react';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>pianOMG</h1>
-      </div>
+      <Grid>
+        <Grid.Row>
+          <div className="App">
+            <h1>pianOMG</h1>
+          </div>
+        </Grid.Row>
+      </Grid>
     );
   }
 }
