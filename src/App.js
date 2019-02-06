@@ -6,24 +6,12 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <Grid columns={3}>
-        <Grid.Row>
-          <div className="App">
-            <h1>pianOMG</h1>
-          </div>
-        </Grid.Row>
-        <Grid.Row>
-          <Grid.Column>
 
-          </Grid.Column>
-          <Grid.Column>
-            <Keyboard />
-          </Grid.Column>
-          <Grid.Column>
-            
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
+      <div className="App">
+        <h1>pianOMG</h1>
+        <Keyboard />
+      </div>
+          
     );
   }
 }
