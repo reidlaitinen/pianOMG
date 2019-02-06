@@ -15,7 +15,7 @@ class Keyboard extends React.Component {
     return (
       <div>
         <div>Keyboard Component</div>
-          <Piano noteRange={{ first: firstNote, last: lastNote }} />
+          <Piano noteRange={{ first: firstNote, last: lastNote }} width={1000} />
         </div>
     )
   }

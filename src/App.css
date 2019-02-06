@@ -18,6 +18,17 @@
   color: white;
 }
 
+.Keyboard {
+  display: flex;
+  margin-left: 10%;
+  flex-direction: vertical;
+  align-self: center;
+}
+
+.Margin {
+  min-width: 200px;
+}
+
 .App-link {
   color: #61dafb;
 }
