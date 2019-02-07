@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Piano, KeyboardShortcuts, MidiNumbers } from 'react-piano';
+import ResponsivePiano from './ResponsivePiano.js';
 import 'react-piano/dist/styles.css';
 
 
