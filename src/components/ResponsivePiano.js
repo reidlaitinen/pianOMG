@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Piano, KeyboardShortcuts, MidiNumbers } from 'react-piano';
 import Soundfont from 'soundfont-player';
-import SoundfontProvider from '../SoundFontProvider.js';
+import SoundfontProvider from '../SoundfontProvider.js';
 import DimensionsProvider from '../DimensionsProvider.js';
 
 import 'react-piano/dist/styles.css';
